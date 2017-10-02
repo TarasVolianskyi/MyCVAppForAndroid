@@ -53,7 +53,7 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/myLocation"
+        android:id="@+id/myEmail"
         android:text="volianskyitv@gmail.com"
         android:textSize="25sp"
         android:onClick="clickGoToMyEmail"
@@ -61,10 +61,10 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/myLocation"
+        android:id="@+id/btnListOfCategories"
         android:text="List"
         android:textSize="25sp"
-        android:onClick="clickGoToMyEmail"
+        android:onClick="onClick"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.volianskyi.taras.a300917_cv.ProfileActivity">
+
+    <TextView
+        android:id="@+id/tvProfileTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15sp" />
+
+    <TextView
+        android:id="@+id/tvProfileContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I want to develop as a Java specialist. I'm striving to acquire a new experience and looking for an interesting project from a technical point of view. I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative.
+"
+        android:textSize="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="85sp" />
+
+    <Button
+        android:id="@+id/btnGoToNextPageFromProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next page" />
+
+    <Button
+        android:id="@+id/btnGoToListFromProfile"
+        android:layout_width="match_parent"
+        android:onClick="clickGoBakToList"
+        android:layout_height="wrap_content"
+        android:text="Go to list" />
+
+</LinearLayout>
