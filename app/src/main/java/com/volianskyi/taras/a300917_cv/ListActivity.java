@@ -18,17 +18,17 @@ public class ListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_list);
         boolean value = getIntent().getBooleanExtra("Test", true);
         int numberValue = getIntent().getIntExtra("Number", 0);
-       TextView tv = (TextView) findViewById(R.id.tvTextMapsActivity);
+        TextView tv = (TextView) findViewById(R.id.tvTextMapsActivity);
         //tv.setText("Value is - " + value + "value number - " + numberValue);
         ListView lvMain = (ListView) findViewById(R.id.lvListOfCategories);
         //final String[] array = new String[]{"one","two","three"};
         final String[] array = getResources().getStringArray(R.array.namesOfCategoris);
-        ArrayAdapter<String> arrayAdapter  = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, array);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, array);
         lvMain.setAdapter(arrayAdapter);
         lvMain.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(ListActivity.this, "click on item"+array[i], Toast.LENGTH_SHORT).show();
+                Toast.makeText(ListActivity.this, "click on item" + array[i], Toast.LENGTH_SHORT).show();
             }
         });
     }
