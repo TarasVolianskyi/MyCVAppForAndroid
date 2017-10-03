@@ -23,7 +23,7 @@ public class ListActivity extends AppCompatActivity {
     private void initList() {
         ListView lvMain = (ListView) findViewById(R.id.lvListOfCategories);
         final String[] array = getResources().getStringArray(R.array.namesOfCategoris);
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, array);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,R.id.tvTextListItem, array);
         lvMain.setAdapter(arrayAdapter);
         lvMain.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
@@ -33,6 +33,7 @@ public class ListActivity extends AppCompatActivity {
                 Toast.makeText(ListActivity.this, "click on item" + array[i], Toast.LENGTH_SHORT).show();
             }
         });
+
 
 
     }

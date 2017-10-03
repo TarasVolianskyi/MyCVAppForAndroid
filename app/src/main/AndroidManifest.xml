@@ -18,7 +18,11 @@
         </activity>
         <activity android:name=".ListActivity" />
         <activity android:name=".ProfileActivity" />
-        <activity android:name=".LanguagesActivity"></activity>
+        <activity android:name=".LanguagesActivity" />
+        <activity android:name=".QRCodeActivity" />
+        <activity android:name=".EducationActivity" />
+        <activity android:name=".InterestsActivity" />
+        <activity android:name=".SkillsActivity"></activity>
     </application>
 
 </manifest>
