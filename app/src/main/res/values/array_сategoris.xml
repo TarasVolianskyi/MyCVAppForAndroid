@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="namesOfCategoris">
+    <item>
+        Profile
+    </item>
+        <item>
+        Skils
+    </item>
+        <item>
+        Mydevelopingexperience
+    </item>
+        <item>
+        Workexperience
+    </item>
+        <item>
+        Education
+    </item>
+        <item>
+        Languages
+    </item>
+        <item>
+        Interests
+    </item>
+        <item>
+        QRcode
+    </item>
+    </string-array>
+</resources>

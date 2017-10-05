@@ -13,16 +13,14 @@
         android:layout_height="wrap_content"
         android:text="Taras Volianskyi"
         android:textAlignment="center"
-        android:textSize="40sp"
-        app:layout_constraintBottom_tyPhotooBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="35sp"
+        android:textStyle="bold"
+ />
 
     <ImageView
-
+        android:src="@drawable/myphoto"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="260dp"
         />
 
     <TextView
@@ -30,31 +28,29 @@
         android:layout_height="wrap_content"
         android:text="Java Android developer"
         android:textAlignment="center"
-        android:textSize="31sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="27sp"
+        android:textStyle="bold"
+ />
 
     <Button
-        android:id="@+id/myLocation"
-        android:text="Kyiv, Ukraine"
+        android:id="@+id/btnMyLocation"
+        android:text="@string/location"
         android:textSize="25sp"
         android:onClick="clickGoToMyLocation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/myPhoneNumber"
-        android:text="+380974526583"
+        android:id="@+id/btnMyPhoneNumber"
+        android:text="@string/mynumber"
         android:textSize="25sp"
         android:onClick="clickGoToMyPhoneNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/myEmail"
-        android:text="volianskyitv@gmail.com"
+        android:id="@+id/btnMyEmail"
+        android:text="@string/volianskyitv"
         android:textSize="25sp"
         android:onClick="clickGoToMyEmail"
         android:layout_width="match_parent"
@@ -62,7 +58,7 @@
 
     <Button
         android:id="@+id/btnListOfCategories"
-        android:text="List"
+        android:text="@string/more_details"
         android:textSize="25sp"
         android:onClick="onClick"
         android:layout_width="match_parent"
@@ -74,10 +70,7 @@
         android:text="\n"
         android:textAlignment="center"
         android:textSize="31sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+      />
 
 
 </LinearLayout>

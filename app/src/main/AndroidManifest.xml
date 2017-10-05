@@ -16,13 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ListActivity" />
+        <activity android:name=".CategoriesActivity" />
         <activity android:name=".ProfileActivity" />
-        <activity android:name=".LanguagesActivity" />
-        <activity android:name=".QRCodeActivity" />
+        <activity android:name=".SkillsActivity" />
+        <activity android:name=".ProjectsActivity" />
+        <activity android:name=".WorkExperianceActivity" />
         <activity android:name=".EducationActivity" />
+        <activity android:name=".LanguagesActivity" />
         <activity android:name=".InterestsActivity" />
-        <activity android:name=".SkillsActivity"></activity>
+        <activity android:name=".QRCodeActivity"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="namesOfUniversities">
+    <item>
+       National University Lise and Environmental Science of Ukraine
+    </item>
+        <item>
+       Czech University Life Science in Prague
+    </item>
+        <item>
+       National University Lise and Environmental Science of Ukraine
+    </item>
+    </string-array>
+</resources>

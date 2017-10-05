@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="namesOfCategoris">
+    <string-array name="namesOfJobs">
     <item>
-        Profile
+        Forest expert
     </item>
         <item>
-        Skils
+       Asistent of manager
     </item>
         <item>
-        My projects and developing experience
+       Manager
     </item>
         <item>
-        Work experience
+        Sales manager
     </item>
         <item>
-        Education
+        Pre-sales manager
     </item>
         <item>
-        Languages
+       Sales manager
     </item>
         <item>
-        Interests
+        Team leader
     </item>
         <item>
-        QR-code
+        Freelancer
     </item>
     </string-array>
 </resources>

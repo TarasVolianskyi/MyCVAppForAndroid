@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">30.09.17-CV</string>
+    <string name="more_details">More details</string>
+    <string name="volianskyitv">volianskyitv@gmail.com</string>
+    <string name="mynumber">+380974526583</string>
+    <string name="location">Kyiv, Ukraine</string>
 </resources>
