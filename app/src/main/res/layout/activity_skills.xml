@@ -4,11 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.volianskyi.taras.a300917_cv.SkillsActivity">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20sp" />
 
     <TextView
         android:id="@+id/tvSkillsM"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Languages: Java,  SQL, XML
+Java skills: Java SE, JDBC, JavaFX, Spring, JSON, JSOUP, JUnit, Selenium, TomCat, Design Patterns (Singleton, Call Back, Strategy and other), NetBeans, Intellij Idea, Eclipse, pgAdmin, GitHub
+ Android skills: Android studio
+Other skills: Excel (macros, pivot tables)
+Databases: PostgreSQL, MySQL
+Operating System: Linux Ubuntu, Windows Xp / Vista / 7 / 8 / 10
+Agile Scrum"
+        android:textSize="22sp" />
 
 </LinearLayout>
