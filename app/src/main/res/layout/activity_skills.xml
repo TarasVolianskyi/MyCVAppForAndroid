@@ -24,4 +24,11 @@ Operating System: Linux Ubuntu, Windows Xp / Vista / 7 / 8 / 10
 Agile Scrum"
         android:textSize="22sp" />
 
+    <Button
+        android:id="@+id/btnListOfCategoriesFromSkills"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to main list" />
+
 </LinearLayout>
