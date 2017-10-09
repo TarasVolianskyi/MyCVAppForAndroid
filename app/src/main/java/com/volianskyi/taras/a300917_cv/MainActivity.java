@@ -46,8 +46,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(Intent.createChooser(intent,"Send email!"));*/
                 break;
             case R.id.btnListOfCategories:
-
-
                 Toast.makeText(this, "Click", Toast.LENGTH_SHORT).show();
                 intent = new Intent(this, CategoriesActivity.class);
                 intent.putExtra("Number", 15);

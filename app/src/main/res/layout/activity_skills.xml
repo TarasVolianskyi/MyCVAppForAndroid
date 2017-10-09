@@ -26,9 +26,9 @@ Agile Scrum"
 
     <Button
         android:id="@+id/btnListOfCategoriesFromSkills"
-        android:onClick="onClick"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="onClick"
         android:text="Go to main list" />
 
 </LinearLayout>
